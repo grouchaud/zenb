@@ -80,12 +80,13 @@
 			<div class="cta text-center">
 				<p><strong>Commencez votre mois d'essais gratuit dès aujourd'hui !</strong></p>
 				<div class="col-sm-6">
-					<input type="text" name="location" id="INPUT_1" placeholder="Votre email" />
+					<input type="email" name="EMAIL" id="INPUT_1" placeholder="Votre email" />
 				</div>
 				<div id="mce-responses" class="clear">
-				<div class="response" id="mce-error-response" style="display:none"></div>
-				<div class="response" id="mce-success-response" style="display:none"></div>
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
 				</div>
+				<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bac0e57d55190fa81f4d912f1_bdca4a6b9e" tabindex="-1" value=""></div>
 				<div class="col-sm-6">
 					<input type="submit" name="commit" value="Essayez maintenant" id="INPUT_2" />
 				</div>
@@ -105,6 +106,7 @@
 	</div>
 </div>
 </div>
+
 
 
 
