@@ -9,7 +9,7 @@ document.write('\
         <span class="icon-bar"></span>\
         <span class="icon-bar"></span>\
       </button>\
-      <!--<img src="images/logo.png" width="3%" class="logo" >-->\
+      <!--<img src="images/Z.png" width="3%" class="logo" >-->\
       <a class="navbar-brand" href="index.html">zenbase</a>\
     </div>\
 \

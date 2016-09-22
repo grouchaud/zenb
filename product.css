@@ -1,6 +1,6 @@
 .section_product_1{
-	background-color: #F4F4F4;
-	min-height: 800px;
+	background-color: rgba(241,112,63, 0.8);
+	min-height: 600px;
 	padding-top: 50px;
 	padding-bottom: 70px;
 }
@@ -76,7 +76,7 @@
 	border-bottom: 2px solid #d4460f;
 }
 
-
+.ways{margin-bottom:150px;padding-top:100px;}
 
 .box-title{
 	padding-top: 40px;
@@ -159,4 +159,46 @@ ul#content-authorizesm.box-authorizesm{
     outline: rgb(31, 31, 31) none 0px;
     margin-top: 40px;
     margin-left: 100px;
+}
+
+.detail#communicate .image_container{position:absolute;bottom:-550px;left:0px;width:964px;height:565px}
+
+.ways{margin-right:10px;margin:auto; padding-bottom:20%;}
+.detail#communicate,.detail#drag_drop_share,.detail#tools{border-bottom:1px solid #E5E5E5}
+.detail#communicate{padding:3.19rem 0;height:auto;overflow:hidden}
+
+.detail#communicate h1{width:100%;text-align:center;font-size:3.5125rem;font-weight:900;line-height:3.83rem;padding:1.06rem 0 4.78rem}
+.detail#communicate .ways{width:90%;margin-top:auto; padding-left:35%;}
+
+.detail#communicate .way{width:90%;padding:25px 34px;cursor:pointer;border-radius:10px}
+.detail#communicate .way h3,.detail#communicate .way p{width:100%}
+.detail#communicate .way h3{font-size:1.6rem;font-weight:900;margin:0 0 .27rem;}
+.detail#communicate .way p{font-size:1.2;margin:auto;opacity: 0.7;text-align:justify;}
+.detail#communicate .way:hover h3{opacity:1;color: rgb(241,112,63);}
+.detail#communicate .way:hover p{opacity:1;}
+.detail#communicate[data-highlight=channel] .way[data-highlight=channel],.detail#communicate[data-highlight=dm] .way[data-highlight=dm],.detail#communicate[data-highlight=group] .way[data-highlight=group]{background:#F4F4F4}
+.detail#communicate[data-highlight=channel] .way[data-highlight=channel] h3,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] h3,.detail#communicate[data-highlight=group] .way[data-highlight=group] h3{opacity:1;color: rgb(241,112,63);}
+.detail#communicate[data-highlight=channel] .way[data-highlight=channel] p,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] p,.detail#communicate[data-highlight=group] .way[data-highlight=group] p{opacity:1}
+.detail#communicate[data-highlight=channel] .way[data-highlight=channel]:hover,.detail#communicate[data-highlight=dm] .way[data-highlight=dm]:hover,.detail#communicate[data-highlight=group] .way[data-highlight=group]:hover{background:#F4F4F4}
+.detail#communicate[data-highlight=channel] .way[data-highlight=channel] h3:hover,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] h3:hover,.detail#communicate[data-highlight=group] .way[data-highlight=group] h3:hover{opacity:1;color: rgb(0,0,0);}
+.detail#communicate[data-highlight=channel] .way[data-highlight=channel] p:hover,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] p,:hover.detail#communicate[data-highlight=group] .way[data-highlight=group] p:hover{opacity:1;color:black;}
+
+.detail#communicate .switcher{width:66px;height:26px;background:rgba(0,0,0,.5);border-radius:13px;padding:8px 10px;margin:0 auto;display:none}
+.detail#communicate .switcher .circle{display:block;float:left;width:10px;height:10px;border:1px solid #FFF;border-radius:5px;margin-right:8px;opacity:.6}
+.detail#communicate .switcher .circle:last-of-type{margin-right:0}
+.detail#communicate[data-highlight=channel] .circle[data-highlight=channel],.detail#communicate[data-highlight=dm] .circle[data-highlight=dm],.detail#communicate[data-highlight=group] .circle[data-highlight=group]{opacity:1;background:#FFF;}
+
+.detail#communicate .highlight{width:300px;height:300px;position:absolute;opacity:0;-webkit-transition:opacity .2s ease-out 0s;-moz-transition:opacity .2s ease-out 0s;transition:opacity .2s ease-out 0s;background-image:url(images/tourproduit.png);background-size:300px 913px;background-repeat:no-repeat;left:90px}
+.detail#communicate .highlight[data-highlight=channel]{top:-15px;background-position:0 0}
+.detail#communicate .highlight[data-highlight=dm]{top:350px;background-position:0 -612px}
+.detail#communicate .highlight[data-highlight=group]{top:95px;background-position:0 -306px}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.detail#communicate .highlight{background-image:url(images/tourproduit.png)}
+}
+.detail#communicate .highlight.highlight_old{background-image:url(images/tourproguit.png)}
+.detail#communicate .highlight.highlight_old[data-highlight=dm]{top:95px;background-position:0 -400px}
+.detail#communicate .highlight.highlight_old[data-highlight=group]{top:175px;background-position:0 -800px}
+@media only screen and (-webkit-min-device-pixel-ratio:2),only screen and (min-resolution:192dpi),only screen and (min-resolution:2dppx){.detail#communicate .highlight.highlight_old{background-image:url(images/tourproduit.png)}
+}
+.detail#communicate[data-highlight=channel] .highlight[data-highlight=channel],.detail#communicate[data-highlight=dm] .highlight[data-highlight=dm],.detail#communicate[data-highlight=group] .highlight[data-highlight=group]{opacity:1}
 }

@@ -95,7 +95,7 @@
 	</div>
 	<div class="hidden-md hidden-sm hidden-lg col-xs-12">
 		<form action="//zenbase.us13.list-manage.com/subscribe/post?u=bac0e57d55190fa81f4d912f1&amp;id=bdca4a6b9e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-			<div class="cta text-center">
+			<div class="ctaxs text-center">
 				<p><strong>Commencez votre mois d'essais gratuit dès aujourd'hui !</strong></p>
 				<div class="col-xs-12">
 					<input type="email" name="EMAIL" id="INPUT_1xs" placeholder="Votre email" />
@@ -120,35 +120,7 @@
 
 <section class="section1">
 	<div class="container">
-		<div class="hidden-sm hidden-lg hidden-md row">
-			<div class="col-xs-12">
-				<h3 class="title-benefitxs">Développez votre entreprise sans perdre sa culture, notre recette :</h3>
-				<ul id="content-benefit">
-					<li>Récoltez des feedbacks factuels et fiables</li>
-					<li>Identifiez les problèmes en amonts</li>
-					<li>Détéctez et partagez les bonnes pratiques</li>
-					<li>Basez vos décisions RH sur des données</li>
-				</ul>
-			</div>
-		</div>
-		<div class="hidden-xs clearfix row">
-			<div class="col-sm-6 image-benefit-col">
-				<img src="images/dashboard2.png" width="100%" alt="data_chart" class="image-benefit">
-			</div>
-			<div class="col-sm-5">
-				<h3 class="hidden-lg title-benefit1">Développez votre entreprise sans perdre sa culture, notre recette :</h3>
-				<h3 class="hidden-sm hidden-md title-benefit2">Développez votre entreprise sans perdre sa culture, notre recette :</h3>
-				<ul id="content-benefit">
-					<li>Récoltez des feedbacks factuels et fiables</li>
-					<li>Identifiez les problèmes en amonts</li>
-					<li>Détéctez et partagez les bonnes pratiques</li>
-					<li>Basez vos décisions RH sur des données</li>
-				</ul>
-			</div>
-		</div>
-		
-		<div class="separator-horizontal"></div>
-
+	
 		<div class="col-sm-12 text-center how-it-works-title">
 			<p>Comment ça marche ?</p>
 		</div>
@@ -170,10 +142,55 @@
 				<h4 class="how-it-works-subtitle">3. Visualisez l'évolution de vos équipes</h4>  
 				<p class="how-it-works-content-3">SUIVEZ AU FIL DU TEMPS LA TENDANCE DANS VOS ÉQUIPES ET IDENTIFIER LES EFFETS DE VOS DÉCISIONS</p>
 			</div>
+		</div>	
+	</div>
+</section>
+		
+<section class="section2">
+	<div class="container">
+	
+		<div class="hidden-sm hidden-lg hidden-md row">
+			<div class="col-xs-12">
+				<h3 class="title-benefitxs">Développez votre entreprise sans perdre sa culture, notre recette :</h3>
+				<ul id="content-benefit">
+					<li>Récoltez des feedbacks factuels et fiables</li>
+					<li>Identifiez les problèmes en amonts</li>
+					<li>Détéctez et partagez les bonnes pratiques</li>
+					<li>Basez vos décisions RH sur des données</li>
+				</ul>
+			</div>
 		</div>
+		<div class="hidden-xs row">
+			<div class="col-sm-5 image-benefit-col">
+				<img src="images/dashboard2.png" width="90%" alt="data_chart" class="image-benefit">
+				<div class=shadow"></div>
+			</div>
+			<div class="col-sm-6 hidden-lg">
+				<h3 class="hidden-lg title-benefit1">Développez votre entreprise sans perdre sa culture, notre recette :</h3>
+				<ul id="content-benefit">
+					<li>Récoltez des feedbacks factuels et fiables</li>
+					<li>Identifiez les problèmes en amonts</li>
+					<li>Détéctez et partagez les bonnes pratiques</li>
+					<li>Basez vos décisions RH sur des données</li>
+				</ul>
+			</div>
+			<div class="col-sm-6 hidden-sm hidden-md">
+				<h3 class="hidden-sm hidden-md title-benefit2">Développez votre entreprise sans perdre sa culture, notre recette :</h3>
+				<ul id="content-benefit2">
+					<li>Récoltez des feedbacks factuels et fiables</li>
+					<li>Identifiez les problèmes en amonts</li>
+					<li>Détéctez et partagez les bonnes pratiques</li>
+					<li>Basez vos décisions RH sur des données</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>
 
-		<div class="separator-horizontal"></div>
- 
+
+<section class="section3">
+	<div class="container">
+
 		<div class="row testimonial-box">
 			<div class="col-sm-12">
 				<div id="testimonial-slider" class="owl-carousel owl-theme">
@@ -225,18 +242,11 @@
 	</div>
 </section>
 
-<script src="footer.js"></script>
-
-    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
-    
-    <script src='https://cdn.slaask.com/chat.js'></script>
-<script>
-    _slaask.init('6d3a8a5fe1ab1a4be64623de9af8c9eb');
-</script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
 
 <script src="static/bower_components/typed.js/js/typed.js"></script>
 
+<script src="footer.js"></script>
 
 <!-- begin carroussel!-->
  <script type="text/javascript">

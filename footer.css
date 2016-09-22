@@ -225,7 +225,7 @@ body{
 .fa{
 	padding-top: 25px;
 	text-align: center;
-	color: rgb(143,143,143);
+	color: rgb(153,153,153);
 	text-decoration: none;
 }
 .fa:hover{
@@ -234,8 +234,9 @@ body{
 }
 
 .index{
-	text-align: center;
+	text-align: left;
 	margin-top: 0px;
+	padding-left: 14%;
 	color:#363738;
 }
 

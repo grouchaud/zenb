@@ -1,5 +1,5 @@
 document.write('\
-<footer>\
+<footer id="footy">\
 	<div class="row clearfix">\
 		<div class="col-xs-12 text-center tagline-footer">\
 			<h1>Inscrivez-vous maintenant</br>et commencez gratuitement!\
@@ -30,26 +30,27 @@ document.write('\
 			</div>\
 		</div>\
 	</div>\
-	<div class="row index-row">\
-		<div class="col-sm-4 index">\
-			<h5><p>Product</p></h5>\
-				<p> <a class=menuindex href="price.html">Prix</a> </br>\
-				<a class=menuindex href="">Clients</a> </br>\
-				<a class=menuindex href="product.html">Product Tour</a> </p>\
+	<div class="container">\
+		<div class="row index-row">\
+			<div class="col-sm-4 index">\
+				<h5><p>Product</p></h5>\
+					<p> <a class=menuindex href="price.html">Prix</a> </br>\
+					<a class=menuindex href="">Clients</a> </br>\
+					<a class=menuindex href="product.html">Product Tour</a> </p>\
+			</div>\
+			<div class="col-sm-4 index">\
+				<h5>Company</h5>\
+				<p> <a class=menuindex href="">Notre Histoire</a> </br>\
+				<a class=menuindex href="">Team</a> </br>\
+				<a class=menuindex href="contact.html">Contact</a> </br>\
+				<a class=menuindex href="">Partners</a> </br>\
+				<a class=menuindex href="">Press</a> </p>\
+			</div>\
+			<div class="col-sm-4 index">\
+				<h5>Content</h5>\
+				<p> <a class=menuindex href="">Blog</a> </p>\
+			</div>\
 		</div>\
-		<div class="col-sm-4 index">\
-			<h5>Company</h5>\
-			<p> <a class=menuindex href="">Notre Histoire</a> </br>\
-			<a class=menuindex href="">Team</a> </br>\
-			<a class=menuindex href="contact.html">Contact</a> </br>\
-			<a class=menuindex href="">Partners</a> </br>\
-			<a class=menuindex href="">Press</a> </p>\
-		</div>\
-		<div class="col-sm-4 index">\
-			<h5>Content</h5>\
-			<p> <a class=menuindex href="">Blog</a> </p>\
-		</div>\
-\
 	</div>\
 	<div class="row">\
 		<div class="col-xs-12 text-center">\
