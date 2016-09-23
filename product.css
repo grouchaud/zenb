@@ -114,6 +114,8 @@
 	list-style-type: none; 
 }
 
+.titre_every h2{font-size:3.5125rem;font-weight:900;line-height:3.83rem;padding:1.06rem 0 4.78rem}
+
 #content-authorizesm li{
 	margin-top: 20px;
 	letter-spacing: 1,5px;
@@ -168,19 +170,20 @@ ul#content-authorizesm.box-authorizesm{
 .detail#communicate{padding:3.19rem 0;height:auto;overflow:hidden}
 
 .detail#communicate h1{width:100%;text-align:center;font-size:3.5125rem;font-weight:900;line-height:3.83rem;padding:1.06rem 0 4.78rem}
-.detail#communicate .ways{width:90%;margin-top:auto; padding-left:35%;}
+.detail#communicate .ways{width:95%;margin-top:auto; padding-left:35%;}
+.detail#communicate .waysxs{width:100%;margin-top:auto; padding-left:5%;}
 
-.detail#communicate .way{width:90%;padding:25px 34px;cursor:pointer;border-radius:10px}
+.detail#communicate .way{width:95%;padding:25px 34px;cursor:pointer;border-radius:10px}
 .detail#communicate .way h3,.detail#communicate .way p{width:100%}
 .detail#communicate .way h3{font-size:1.6rem;font-weight:900;margin:0 0 .27rem;}
-.detail#communicate .way p{font-size:1.2;margin:auto;opacity: 0.7;text-align:justify;}
+.detail#communicate .way p{font-size:1.2;margin:auto;opacity: 0.7;text-align:left;}
 .detail#communicate .way:hover h3{opacity:1;color: rgb(241,112,63);}
 .detail#communicate .way:hover p{opacity:1;}
 .detail#communicate[data-highlight=channel] .way[data-highlight=channel],.detail#communicate[data-highlight=dm] .way[data-highlight=dm],.detail#communicate[data-highlight=group] .way[data-highlight=group]{background:#F4F4F4}
 .detail#communicate[data-highlight=channel] .way[data-highlight=channel] h3,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] h3,.detail#communicate[data-highlight=group] .way[data-highlight=group] h3{opacity:1;color: rgb(241,112,63);}
 .detail#communicate[data-highlight=channel] .way[data-highlight=channel] p,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] p,.detail#communicate[data-highlight=group] .way[data-highlight=group] p{opacity:1}
 .detail#communicate[data-highlight=channel] .way[data-highlight=channel]:hover,.detail#communicate[data-highlight=dm] .way[data-highlight=dm]:hover,.detail#communicate[data-highlight=group] .way[data-highlight=group]:hover{background:#F4F4F4}
-.detail#communicate[data-highlight=channel] .way[data-highlight=channel] h3:hover,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] h3:hover,.detail#communicate[data-highlight=group] .way[data-highlight=group] h3:hover{opacity:1;color: rgb(0,0,0);}
+.detail#communicate[data-highlight=channel] .way[data-highlight=channel] h3:hover,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] h3:hover,.detail#communicate[data-highlight=group] .way[data-highlight=group] h3:hover{opacity:1;color: rgb(241,112,63);}
 .detail#communicate[data-highlight=channel] .way[data-highlight=channel] p:hover,.detail#communicate[data-highlight=dm] .way[data-highlight=dm] p,:hover.detail#communicate[data-highlight=group] .way[data-highlight=group] p:hover{opacity:1;color:black;}
 
 .detail#communicate .switcher{width:66px;height:26px;background:rgba(0,0,0,.5);border-radius:13px;padding:8px 10px;margin:0 auto;display:none}
