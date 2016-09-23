@@ -74,7 +74,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <div class="hidden-xs hidden-md hidden-sm col-xs-12 text-center question">
 		<div>
-			<p><!--Savez-vous si vos équipes se sentent--> <span id="typist-element">Quels défis ont surmontés vos équipes cette semaine</span></p>
+			<p><!--Savez-vous si vos équipes se sentent--> <span class="typist-element">Quels défis ont surmontés vos équipes cette semaine</span></p>
 		</div>
     </div>
     <div class="hidden-xs hidden-lg col-xs-12 text-center taglinesm">
@@ -82,7 +82,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
     <div class="hidden-xs hidden-lg col-xs-12 text-center questionsm">
 		<div>
-			<p><!--Savez-vous si vos équipes se sentent--> <span id="typist-element">Quels défis ont surmontés vos équipes cette semaine</span></p>
+			<p><!--Savez-vous si vos équipes se sentent--> <span class="typist-element">Quels défis ont surmontés vos équipes cette semaine</span></p>
 		</div>
     </div>
 	<div class="hidden-xs col-sm-12">
@@ -271,7 +271,7 @@ $(document).ready(function(){
 		autoPlay: 10000,
     });
 
-    $("#typist-element").typed({ 
+    $(".typist-element").typed({ 
       strings: ["Quels défis ont surmontés vos équipes cette semaine","Connaissez-vous la motivation de vos équipes","Vos équipes ont elles assez de feedbacks","Savez vous si vos équipes se sentent reconnues" ], 
       typeSpeed: 20, 
       loop: true, 
