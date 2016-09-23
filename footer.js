@@ -31,7 +31,7 @@ document.write('\
 		</div>\
 	</div>\
 	<div class="container">\
-		<div class="row index-row">\
+		<div class="row index-row hidden-xs">\
 			<div class="col-sm-4 index">\
 				<h5><p>Product</p></h5>\
 					<p> <a class=menuindex href="price.html">Prix</a> </br>\

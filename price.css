@@ -47,8 +47,8 @@ padding-top: 60px;
 
 .include-in-price{
     color: grey;
-    margin-top: -120px;
-    padding-left: 420px;
+    margin-top: -130px;
+    padding-left: 455px;
     text-align: left;
 }
 
@@ -80,8 +80,15 @@ padding-top: 60px;
 .box-price{
 	width: 800px;
 	height: 330px;
-	padding-left: auto;
-	padding-right: auto;
+	border-radius: 3px;
+	box-shadow: rgb(210, 210, 210) 1px 1px 8px 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box-pricesm{
+	width: 730px;
+	height: 330px;
 	border-radius: 3px;
 	box-shadow: rgb(210, 210, 210) 1px 1px 8px 0px;
 	margin-left: auto;
@@ -164,9 +171,13 @@ padding-top: 60px;
 
 .col-left{
     padding-top: 30px;
+	margin-left: 5px;
+	margin-right: -5px;
 }
 
 .col-right{
+	margin-left: 5px;
+	margin-right: -5px;
     padding-top: 30px;
 }
 .faq-question-left{
@@ -220,6 +231,9 @@ padding-top: 60px;
     font-family: helvetica;
     line-height: 1.5;
     padding-top: 40px;
+	margin-left: 5px;
+	margin-right: -5px;
+
 }
 
 .about-pricing-contenu-right{
@@ -229,6 +243,8 @@ padding-top: 60px;
     font-family: helvetica;
     line-height: 1.5;
     padding-top: 40px;
+	margin-left: 5px;
+	margin-right: -5px;
 }
 
 
