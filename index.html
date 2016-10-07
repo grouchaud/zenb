@@ -61,16 +61,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <div class="front_page">
 	<script src="nav.js"></script>
 
-	<div class="container">
-		<div class="raw free-trial">
-			<div class="hidden-xs hidden-md hidden-sm col-xs-12 text-center tagline">
-				<p>Prenez le pouls de vos équipes,<br> une fois par semaine.</p>
-			</div>
-			<div class="hidden-xs hidden-md hidden-sm col-xs-12 text-center question">
-				<p><!--Savez-vous si vos équipes se sentent--> <span class="typist-element">Quels défis ont surmontés vos équipes cette semaine</span></p>
-			</div>
-		</div>
-	</div>
 	<div class="gradient"></div>
 	<div class="container">
 		<script src="footer.js"></script>
