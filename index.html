@@ -7,7 +7,7 @@
 
     <title>Zenbase</title>
     <!--<link rel="shortcut icon" href="https://emojipedia-us.s3.amazonaws.com/cache/e3/01/e301192e04353d2683f2894102bda853.png">-->
-    <link rel="icon" href="images/Z1.ico" />
+    <link rel="icon" href="images/ZD.ico" />
     <link rel="stylesheet" href="static/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/bower_components/components-font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="index.css">

@@ -74,8 +74,10 @@ padding-top: 60px;
     padding-top: 100px;
 }
 
-
-
+.portraits{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}
 
 .box-price{
 	width: 800px;
@@ -220,7 +222,6 @@ ul { list-style-type: none; }
 /*ABOUT PRICE*/
 .about-pricing{
 	background-color: white;
-	padding-bottom: 70px;
 }
 
 .about-pricing-title{

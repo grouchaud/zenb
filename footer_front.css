@@ -33,7 +33,7 @@ body{
 #logo_front{
 	position:absolute;
 	top: -145px;
-	left: -20px;
+	left: 0%;
 	transform: scale(0.15,0.15);
 }
 
