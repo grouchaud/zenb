@@ -30,6 +30,13 @@ body{
 	margin-bottom: 32px;
 }
 
+#logo_front{
+	position:absolute;
+	top: -145px;
+	left: -20px;
+	transform: scale(0.15,0.15);
+}
+
 .navbar-default .navbar-header .navbar-brand{
 	color: #F4F4F4;
 	font-weight: bolder;
@@ -41,7 +48,7 @@ body{
 }
 
 .navbar-default .navbar-collapse .navbar-nav .connexion a{
-	color: #7738ba;
+	color: #6C4EA6;
 	letter-spacing: 1px;
 	font-weight: bolder;
 	font-size: small;
@@ -49,11 +56,11 @@ body{
 }
 
 .navbar-default .navbar-collapse .navbar-nav .connexion a:hover{
-	color: #4c1c7e
+	color: #4E3878;
 	}
 
 .navbar-default .navbar-collapse .navbar-nav .menu-item a{
-	color: rgb(170,170,170);
+	color: #F4F4F4;
 	letter-spacing: 1px;
 	font-weight: bolder;
 	font-size: 13px;
@@ -149,10 +156,10 @@ body{
     align-items: flex-start;
     perspective-origin: 120px 22.5px;
     transform-origin: 120px 22.5px;
-    background: #7738ba; none repeat scroll 0% 0% / auto padding-box border-box;
+    background: #6C4EA6; none repeat scroll 0% 0% / auto padding-box border-box;
     border-top: 0px none rgb(255, 255, 255);
     border-right: 0px none rgb(255, 255, 255);
-    border-bottom: 3px solid #4c1c7e;
+    border-bottom: 3px solid #4E3878;
     border-left: 0px none rgb(255, 255, 255);
     border-radius: 5px;
     font: normal normal bold normal 16px / 22.8571px Helvetica, sans-serif;
@@ -163,7 +170,7 @@ body{
 }
 
 #INPUT_2:hover{
-	border-bottom: 2px solid #4c1c7e;
+	border-bottom: 2px solid #4E3878;
 }
 
 #INPUT_1xs {
@@ -199,10 +206,10 @@ body{
     align-items: flex-start;
     perspective-origin: 120px 22.5px;
     transform-origin: 120px 22.5px;
-    background: rgb(241,112, 63); none repeat scroll 0% 0% / auto padding-box border-box;
+    background: #6C4EA6; none repeat scroll 0% 0% / auto padding-box border-box;
     border-top: 0px none rgb(255, 255, 255);
     border-right: 0px none rgb(255, 255, 255);
-    border-bottom: 3px solid #d4460f;
+    border-bottom: 3px solid #4E3878;
     border-left: 0px none rgb(255, 255, 255);
     border-radius: 2px;
     font: normal normal bold normal 16px / 22.8571px Helvetica, sans-serif;
@@ -213,7 +220,7 @@ body{
 }/*#INPUT_1*/
 
 #INPUT_2xs:hover{
-	border-bottom: 2px solid #d4460f;
+	border-bottom: 2px solid #4E3878;
 }
 
 .tagline-footer{
@@ -234,7 +241,7 @@ body{
 }
 
 .fa{
-	padding-top: 25px;
+	padding-top: 0px;
 	text-align: center;
 	color: rgb(153,153,153);
 	text-decoration: none;
@@ -248,12 +255,15 @@ body{
 	text-align: left;
 	margin-top: 0px;
 	padding-left: 14%;
-	color:#F4F4F4;
+	color:grey;
 }
 
+.index p{
+		line-height: 0.9em;
+}
 .menuindex{
-	/* line-height: 0.5em; */
-	font-size: 1em;
+	line-height: 0.5em;
+	font-size: 0.8em;
 	color: rgb(143,143,143);
 }
 

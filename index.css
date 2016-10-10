@@ -3,12 +3,12 @@ body {
   background: #000; 
 }
 .gradient{
-	background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,#000 67%);
-    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,#000 67%);
-    background: -o-linear-gradient(top,rgba(0,0,0,0) 0,#000 67%);
-    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,#000 67%);
-    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#000 67%);
-    height: 380px;
+	background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 67%);
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 67%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 67%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 67%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#F4F4F4 67%);
+    height: 300px;
     width: 100%;
     position: absolute;
     bottom: 0;
