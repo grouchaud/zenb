@@ -48,7 +48,7 @@ padding-top: 60px;
 .include-in-price{
     color: grey;
     margin-top: -130px;
-    padding-left: 455px;
+    padding-left: 420px;
     text-align: left;
 }
 
@@ -75,7 +75,6 @@ padding-top: 60px;
 }
 
 .portraits{
-	margin-bottom: 20px;
 	margin-top: 20px;
 	}
 
@@ -315,144 +314,6 @@ ul { list-style-type: none; }
     outline: rgb(95, 108, 115) none 0px;
 }/*#DIV_3*/
 
-#P_4 {
-    box-sizing: border-box;
-    color: rgb(64, 54, 77);
-    height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 95.0625px;
-    column-rule-color: rgb(64, 54, 77);
-    perspective-origin: 47.5312px 8px;
-    transform-origin: 47.5312px 8px;
-    border: 0px none rgb(64, 54, 77);
-    font: normal normal normal normal 12.0001px / 16.8001px BrandonText-Bold, sans-serif;
-    margin: 0px;
-    outline: rgb(64, 54, 77) none 0px;
-}/*#P_4*/
-
-#P_5 {
-    box-sizing: border-box;
-    color: rgb(95, 108, 115);
-    height: 16px;
-    text-align: center;
-    width: 95.0625px;
-    column-rule-color: rgb(95, 108, 115);
-    perspective-origin: 47.5312px 8px;
-    transform-origin: 47.5312px 8px;
-    border: 0px none rgb(95, 108, 115);
-    font: normal normal normal normal 12.0001px / 16.8001px BrandonText-Regular, sans-serif;
-    margin: 0px 0px 12.0001px;
-    outline: rgb(95, 108, 115) none 0px;
-}/*#P_5*/
-
-#IMG_6 {
-    bottom: -68px;
-    box-sizing: border-box;
-    color: rgb(95, 108, 115);
-    display: block;
-    height: 68px;
-    left: 50px;
-    max-width: 100%;
-    position: absolute;
-    right: -0.9375px;
-    text-align: center;
-    top: 44px;
-    width: 46px;
-    column-rule-color: rgb(95, 108, 115);
-    perspective-origin: 23px 34px;
-    transform-origin: 23px 34px;
-    border: 0px none rgb(95, 108, 115);
-    font: italic normal normal normal 18px / 28.0001px BrandonText-Regular, sans-serif;
-    outline: rgb(95, 108, 115) none 0px;
-}/*#IMG_6*/
-
-#DIV_7 {
-    bottom: 247px;
-    box-sizing: border-box;
-    color: rgb(95, 108, 115);
-    height: 44px;
-    left: 820.594px;
-    position: absolute;
-    right: -32px;
-    text-align: center;
-    top: 145px;
-    width: 87.4062px;
-    column-rule-color: rgb(95, 108, 115);
-    perspective-origin: 43.7031px 22px;
-    transform-origin: 43.7031px 22px;
-    border: 0px none rgb(95, 108, 115);
-    font: normal normal normal normal 18px / 28.0001px BrandonText-Regular, sans-serif;
-    outline: rgb(95, 108, 115) none 0px;
-}/*#DIV_7*/
-
-#P_8 {
-    box-sizing: border-box;
-    color: rgb(64, 54, 77);
-    height: 16px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 87.4062px;
-    column-rule-color: rgb(64, 54, 77);
-    perspective-origin: 43.7031px 8px;
-    transform-origin: 43.7031px 8px;
-    border: 0px none rgb(64, 54, 77);
-    font: normal normal normal normal 12.0001px / 16.8001px BrandonText-Bold, sans-serif;
-    margin: 0px;
-    outline: rgb(64, 54, 77) none 0px;
-}/*#P_8*/
-
-#P_9 {
-    box-sizing: border-box;
-    color: rgb(95, 108, 115);
-    height: 16px;
-    text-align: center;
-    width: 87.4062px;
-    column-rule-color: rgb(95, 108, 115);
-    perspective-origin: 43.7031px 8px;
-    transform-origin: 43.7031px 8px;
-    border: 0px none rgb(95, 108, 115);
-    font: normal normal normal normal 12.0001px / 16.8001px BrandonText-Regular, sans-serif;
-    margin: 0px 0px 12.0001px;
-    outline: rgb(95, 108, 115) none 0px;
-}/*#P_9*/
-
-#IMG_10 {
-    bottom: -119px;
-    box-sizing: border-box;
-    color: rgb(95, 108, 115);
-    display: block;
-    height: 119px;
-    left: -11.5938px;
-    max-width: 100%;
-    position: absolute;
-    right: 40px;
-    text-align: center;
-    top: 44px;
-    width: 59px;
-    column-rule-color: rgb(95, 108, 115);
-    perspective-origin: 29.5px 59.5px;
-    transform-origin: 29.5px 59.5px;
-    border: 0px none rgb(95, 108, 115);
-    font: italic normal normal normal 18px / 28.0001px BrandonText-Regular, sans-serif;
-    outline: rgb(95, 108, 115) none 0px;
-}/*#IMG_10*/
-
-#IMG_11 {
-    box-sizing: border-box;
-    color: rgb(95, 108, 115);
-    height: 436px;
-    max-width: 876px;
-    text-align: center;
-    vertical-align: bottom;
-    width: 876px;
-    column-rule-color: rgb(95, 108, 115);
-    perspective-origin: 438px 218px;
-    transform-origin: 438px 218px;
-    border: 0px none rgb(95, 108, 115);
-    font: italic normal normal normal 18px / 28.0001px BrandonText-Regular, sans-serif;
-    outline: rgb(95, 108, 115) none 0px;
-}/*#IMG_11*/
 
 
 

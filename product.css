@@ -25,7 +25,7 @@
 .box-why{
 	margin-top: 0px;
 	width: 900px;
-	height: 500px;
+	height: 550px;
 	padding-left: auto;
 	padding-right: auto;
 	border-radius: 3px;
@@ -80,7 +80,7 @@
 }
 
 #INPUT_3:hover{
-	border-bottom: 2px solid 4E3878;
+	border-bottom: 2px solid #4E3878;
 }
 
 .ways{margin-bottom:150px;padding-top:100px;}
@@ -97,7 +97,7 @@
 
 .box-authorize{
 	text-align: left;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .box-authorizesm{
@@ -131,18 +131,23 @@
 }
 
 ul#content-authorize.box-authorize{
-	margin-top: -265px;
+	margin-top: 10px;
 }
 
 ul#content-authorizesm.box-authorizesm{
-	margin-top: -265px;
+	margin-top: 10px;
 }
 
-
+img{
+	vertical-align: middle;
+}
 
 .vertical-line{
+	position: absolute;
+	top: 120px;
+	left:140px;
 	color: rgb(31, 31, 31);
-    height: 250px;
+    height: 290px;
     text-align: center;
     width: 3px;
     column-rule-color: rgb(31, 31, 31);
@@ -158,7 +163,7 @@ ul#content-authorizesm.box-authorizesm{
 
 .vertical-linesm{
 	color: rgb(31, 31, 31);
-    height: 250px;
+    height: 290px;
     text-align: center;
     width: 3px;
     column-rule-color: rgb(31, 31, 31);
@@ -179,7 +184,7 @@ ul#content-authorizesm.box-authorizesm{
 .detail#communicate{padding:3.19rem 0;height:auto;overflow:hidden}
 
 .detail#communicate h1{width:100%;text-align:center;font-size:3.5125rem;font-weight:900;line-height:3.83rem;padding:1.06rem 0 4.78rem}
-.detail#communicate .ways{width:95%;margin-top:auto; padding-left:35%;}
+.detail#communicate .ways{width:95%;margin-top:auto;}
 .detail#communicate .waysxs{width:100%;margin-top:auto; padding-left:5%;}
 
 .detail#communicate .way{width:95%;padding:25px 34px;cursor:pointer;border-radius:10px}

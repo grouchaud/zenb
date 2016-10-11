@@ -15,6 +15,28 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
     <link href="https://emojicss.com/emoji.css" rel="stylesheet">
 
+
+
+	<script src="assets/js/vivus.js"></script>
+	<script>
+var anim1 = new Vivus(
+   'animation-id', 
+   {
+      type:     'delayed',
+      duration: 150,
+      start:    'autostart',
+      delay:    10, //seulement pour le type "delayed"
+      selfDestroy: false
+   },
+   function() {
+      // fonction de callback
+   }
+);
+anim1.play();
+</script>
+
+
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -79,6 +101,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	</div>
 </div>
 <!--FAQ PRICE-->
+<object id="my-svg" type="image/svg+xml" data="images/Robin et Maxime.svg"></object>
+
+<script>
+  new Vivus('my-svg', {duration: 200}, myCallback);
+</script>
 
 
 <script src="footer.js"></script>

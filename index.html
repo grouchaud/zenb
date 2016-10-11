@@ -43,37 +43,21 @@
 
   <body>
 
-  <!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCF7CQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WCF7CQ');</script>
-<!-- End Google Tag Manager -->
-
-<video poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" playsinline autoplay muted loop>
+<video id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="https://v.ftcdn.net/01/13/67/62/700_F_113676235_XF8MvBLaaUvjoZMgwYJZ4nP4SKNzhyF4.mp4" type="video/mp4">
+<source src="http://ak0.picdn.net/shutterstock/videos/14170070/preview/stock-footage-designers-having-meeting-around-table-in-office-shot-on-r-d.mp4" type="video/mp4">
 </video>
 
 <div class="front_page">
-	<script src="nav.js"></script>
+	<script src="nav_front.js"></script>
 
 	<div class="gradient"></div>
 	<div class="container">
-		<script src="footer.js"></script>
+		<script src="footer _front.js"></script>
 	</div>
 </div>
 
-<img src="images/Gif violet.gif" id="logo_front">
-
-
-
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
-
-<script src="static/bower_components/typed.js/js/typed.js"></script>
-
-  </body>
+	<img src="images/Gif violets.gif" id="logo_front">
+	
+	</body>
 </html>

@@ -32,16 +32,44 @@ body{
 
 #logo_front{
 	position:absolute;
-	top: -145px;
-	left: 0%;
-	transform: scale(0.15,0.15);
+	top: -170px;
+	left:-170px;
+	transform: scale(0.08,0.08);
 }
 
+/* 
+@media (min-width: @screen-sm-min) {
+	#logo_front{
+		position:absolute;
+		top: -145px;
+		left: 0%;
+		transform: scale(0.1,0.1);
+	}
+}
+
+@media (min-width: @screen-md-min) {
+	#logo_front{
+		position:absolute;
+		top: -145px;
+		left: 0%;
+		transform: scale(0.1,0.1);
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	#logo_front{
+		position:absolute;
+		top: -145px;
+		left: 700px;
+		transform: scale(0.1,0.1);
+	}
+}
+ */
 .navbar-default .navbar-header .navbar-brand{
 	color: #F4F4F4;
 	font-weight: bolder;
 	font-size: x-large;
-	margin-left: 0px;
+	margin-left: 37px;
 }
 .navbar-default .navbar-header .navbar-brand-logo{
 	margin-left: 0px;
@@ -106,8 +134,8 @@ body{
 
 .ctaxs {
 	padding-top: 5px;
-	background-color: white;
-	border: solid 1px lightgrey;
+	background-color: rgba(50,50,50,0.8);
+	border: solid 1px rgb(80,80,80);
 	border-radius: 3px;
 	height: 170px;
 	width: 250px;
@@ -115,11 +143,15 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: -60px;
-	-moz-box-shadow: 0px 1px 5px 0px #cfcfcf;
-	-webkit-box-shadow: 0px 1px 5px 0px #cfcfcf;
-	-o-box-shadow: 0px 1px 5px 0px #cfcfcf;
-	box-shadow: 0px 1px 5px 0px #cfcfcf;
-	filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=180, Strength=5);
+	-moz-box-shadow: 0px 1px 5px 0px rgb(100,100,100);
+	-webkit-box-shadow: 0px 1px 5px 0px rgb(100,100,100);
+	-o-box-shadow: 0px 1px 5px 0px rgb(100,100,100);
+	box-shadow: 0px 1px 5px 0px rgb(100,100,100);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=rgb(100,100,100), Direction=180, Strength=5);
+}
+
+.ctaxs p strong{
+	color: #F4F4F4;
 }
 
 #INPUT_1 {
@@ -241,11 +273,15 @@ body{
 }
 
 .fa{
+	transform: scale(0.7,0.7);
 	padding-top: 0px;
 	text-align: center;
 	color: rgb(153,153,153);
 	text-decoration: none;
+	margin-left:-4px;
+	margin-right:-4px;
 }
+
 .fa:hover{
 	color: rgb(99,99,99);
 	text-decoration: none;

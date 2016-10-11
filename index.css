@@ -3,11 +3,11 @@ body {
   background: #000; 
 }
 .gradient{
-	background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 67%);
-    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 67%);
-    background: -o-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 67%);
-    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 67%);
-    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#F4F4F4 67%);
+	background: -moz-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 85%);
+    background: -webkit-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 85%);
+    background: -o-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 85%);
+    background: -ms-linear-gradient(top,rgba(0,0,0,0) 0,#F4F4F4 85%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 0,#F4F4F4 85%);
     height: 300px;
     width: 100%;
     position: absolute;
@@ -23,7 +23,7 @@ video {
     height: auto;
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
-	background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+	background: url('https://www.unstock.io/explore/clip/30254/group-of-people-organise-brainstorm-in-office-to-share-ideas-with-each-other.-they-sit-at-white-table-all-together-which-is-full-of-sheets-of-paper-with-schemes-on-them.-blonde-woman-who-settles-in-middle-distributes-documents-between-participants-of-di/') no-repeat;
   background-size: cover;
   transition: 1s opacity;
 }
