@@ -167,7 +167,7 @@ body{
     padding: 1px 1px 1px 10px;
     transition: box-shadow 0.2s ease 0s;
 	float:right;
-}/*#INPUT_1*/
+}
 
 #INPUT_2 {
 	margin-top: 10px;
@@ -249,7 +249,7 @@ body{
     padding-top: 5px;
     transition: background-color 0.3s ease 0s;
 
-}/*#INPUT_1*/
+}
 
 #INPUT_2xs:hover{
 	border-bottom: 2px solid #4E3878;
