@@ -25,7 +25,7 @@
 .box-why{
 	margin-top: 0px;
 	width: 900px;
-	height: 530px;
+	height: 480px;
 	padding-left: auto;
 	padding-right: auto;
 	border-radius: 3px;
@@ -38,7 +38,7 @@
 .box-whysm{
 	margin-top: 0px;
 	width: 700px;
-	height: 600px;
+	height: 520px;
 	padding-left: auto;
 	padding-right: auto;
 	border-radius: 3px;
@@ -84,58 +84,46 @@
 }
 
 .em-bolt{
-	margin-top:-500px;
+	margin-top:-420px;
 	margin-left:-510px;
 	}
 
 .em-ping{
-	margin-top:-400px;
+	margin-top:-320px;
 	margin-left:-39px;
 
 	}
 	
 .em-web{
-	margin-top:-285px;
+	margin-top:-205px;
 	margin-left:-39px;
 	}
 
 .em-light{
-	margin-top:-165px;
-	margin-left:-39px;
-	}
-
-.em-muscle{
-	margin-top:-65px;
+	margin-top:-85px;
 	margin-left:-39px;
 	}
 
 .em-boltsm{
-	margin-top:-500px;
+	margin-top:-420px;
 	margin-left:-570px;
 	}
 
 .em-pingsm{
-	margin-top:-400px;
+	margin-top:-325px;
 	margin-left:-32px;
 
 	}
 	
 .em-websm{
-	margin-top:-285px;
+	margin-top:-210px;
 	margin-left:-32px;
 	}
 
 .em-lightsm{
-	margin-top:-165px;
+	margin-top:-85px;
 	margin-left:-32px;
 	}
-
-.em-musclesm{
-	margin-top:-65px;
-	margin-left:-32px;
-	}
-
-
 	
 .ways{margin-bottom:150px;padding-top:100px;}
 
@@ -153,6 +141,7 @@
 	margin-top: 50px;
 	margin-left: 40px;
 	text-align: left;
+	margin-right: 50px;
 	text-decoration: none;
 }
 
@@ -205,7 +194,7 @@ img{
 	top: 120px;
 	left:140px;
 	color: rgb(31, 31, 31);
-    height: 290px;
+    height: 250px;
     text-align: center;
     width: 3px;
     column-rule-color: rgb(31, 31, 31);
@@ -225,7 +214,7 @@ img{
 	top: 120px;
 	left:140px;
 	color: rgb(31, 31, 31);
-    height: 290px;
+    height: 250px;
     text-align: center;
     width: 3px;
     column-rule-color: rgb(31, 31, 31);

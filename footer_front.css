@@ -3,7 +3,9 @@ body{
 	background-color: black;
 	overflow-x: hidden;
 }
-
+.em-wink{
+	font-size: 0.6em;
+}
 #footy{
 	position: fixed;
 	bottom: 0;
@@ -257,7 +259,7 @@ body{
 
 .tagline-footer{
 	color: #F4F4F4;
-	padding-bottom: 80px;
+	padding-bottom: 25%;
 }
 
 .cta-footer{

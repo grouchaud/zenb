@@ -140,7 +140,7 @@ padding-top: 60px;
 
 /*FAQ PRICE*/
 .faq{
-    background-color: rgb(244,244,244);
+    background-color: white;
 }
 .faq-contain{
 	margin-bottom: 50px;
@@ -220,7 +220,7 @@ ul { list-style-type: none; }
 
 /*ABOUT PRICE*/
 .about-pricing{
-	background-color: white;
+    background-color: rgb(244,244,244);
 }
 
 .about-pricing-title{
@@ -251,15 +251,33 @@ ul { list-style-type: none; }
 }
 
 .names1{
+	position: relative;
+	margin-top: 13%;
+	left: 9%;
 	text-align:center;
-	padding-top: 200px;
-	padding-left: 220px;
+	font-size: 1.4em;
 }
 .names2{
+	position: relative;
+	margin-top: 11%;
+	right: 9%;
 	text-align:center;
-	padding-top: 200px;
-	padding-right: 220px;
+	font-size: 1.4em;
 }
+
+.arrow1{
+	position: relative;
+	top: 50px;
+	bottom: 50px;
+	transform: scale(0.08,0.08);
+}
+
+.arrow2{
+	position: relative;
+	top: 50px;
+	bottom: 50px;
+	transform: scale(0.08,0.08);
+			}
 
 /*photo robin theo maxime*/
 #DIV_1 {
