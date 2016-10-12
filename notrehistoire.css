@@ -5,7 +5,6 @@ body{
 
 .section1{
 	padding-top: 60px;
-	margin-bottom: 30px;
 }
 
 .section2{
@@ -33,7 +32,12 @@ body{
     line-height: 30px;
 }
 
-
+#my-svg{
+	width: 25%;
+	float: right;
+	margin-bottom:30px;
+	margin-right:30px;
+	}
 
 
 

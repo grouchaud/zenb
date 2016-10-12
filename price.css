@@ -250,7 +250,16 @@ ul { list-style-type: none; }
 	margin-right: -5px;
 }
 
-
+.names1{
+	text-align:center;
+	padding-top: 200px;
+	padding-left: 220px;
+}
+.names2{
+	text-align:center;
+	padding-top: 200px;
+	padding-right: 220px;
+}
 
 /*photo robin theo maxime*/
 #DIV_1 {
