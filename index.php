@@ -45,7 +45,7 @@
 
 <video id="bgvid" playsinline autoplay muted loop>
   <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-<source src="http://ak0.picdn.net/shutterstock/videos/14170070/preview/stock-footage-designers-having-meeting-around-table-in-office-shot-on-r-d.mp4" type="video/mp4">
+<source src="http://ak5.picdn.net/shutterstock/videos/15778135/preview/stock-footage-office-chair-race-slow-motion-young-guys-have-fun-in-the-office-during-a-break-games-of-businessm.mp4" type="video/mp4">
 </video>
 
 <div class="front_page">
