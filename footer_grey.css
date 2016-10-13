@@ -87,11 +87,22 @@ body{
 .navbar-default .navbar-collapse .navbar-nav .menu-item a:hover{
 	color: rgb(99,99,99);
 }
-.navbar{
-	height: 75px;
-	background-color: white;
-	border-color: transparent;
+
+@media (min-width: 768px) {
+	.navbar{
+		height: 75px;
+		background-color: white;
+		border-color: transparent;
 		box-shadow: rgb(210, 210, 210) 1px 1px 8px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.navbar{
+		background-color: white;
+		border-color: transparent;
+		box-shadow: rgb(210, 210, 210) 1px 1px 8px 0px;
+	}
 }
 
 .navcontain {

@@ -24,7 +24,7 @@ document.write('\
       </ul>\
     </div><!-- /.navbar-collapse -->\
   </div><!-- /.container -->\
-<div class="container">\
+<div class="container hidden-xs">\
 	<img src="images/Gif violets.gif" id="logo_front">\
 </div>\
 </nav>\
