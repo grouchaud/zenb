@@ -1,5 +1,5 @@
 document.write('\
-<nav class="navbar navbar-default navbar-static-top">\
+<nav class="navbar navbar-default navbar-fixed-top">\
   <div class="container navcontain">\
     <!-- Brand and toggle get grouped for better mobile display -->\
     <div class="navbar-header">\
@@ -24,5 +24,10 @@ document.write('\
       </ul>\
     </div><!-- /.navbar-collapse -->\
   </div><!-- /.container -->\
+<div class="container">\
+	<img src="images/Gif violets.gif" id="logo_front">\
+</div>\
 </nav>\
+<div class="container blank">\
+</div>\
 ');

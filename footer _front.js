@@ -1,11 +1,5 @@
 document.write('\
 <footer id="footy">\
-	<div class="row clearfix">\
-		<div class="col-xs-12 text-center tagline-footer">\
-			<h1>Prenez le pouls de vos équipes,<br>une fois par semaine <i class="em em-wink"></i>\
-			</h1>\
-		</div>\
-	</div>\
 	<div class="raw">\
 		<div class="hidden-xs col-sm-12">\
 			<div class="cta text-center">\

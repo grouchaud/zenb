@@ -188,6 +188,11 @@ img{
 	vertical-align: middle;
 }
 
+.title_prod_1{
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
 @media (max-width: 1199px) {
 .vertical-line{
 	position: absolute;

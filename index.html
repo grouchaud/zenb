@@ -50,14 +50,20 @@
 
 <div class="front_page">
 	<script src="nav_front.js"></script>
-
-	<div class="gradient"></div>
-	<div class="container">
-		<script src="footer _front.js"></script>
+	<div class="row clearfix">
+		<div class="col-xs-12 text-center tagline-footer">
+			<h1>Prenez le pouls de vos équipes,<br>une fois par semaine <i class="em em-wink"></i>
+			</h1>
+		</div>
 	</div>
+
+	
+	<div class="gradient"></div>
 </div>
 
-	<img src="images/Gif violets.gif" id="logo_front">
+<script src="footer _front.js"></script>
+
+
 	
 	</body>
 </html>

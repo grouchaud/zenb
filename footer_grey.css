@@ -4,8 +4,32 @@ body{
 	overflow-x: hidden;
 }
 
+@media (min-width: 768px) {
+	#logo_front{
+		position:relative;
+		top: -233px;
+		left:-210px;
+		transform: scale(0.08,0.08);
+		z-index: 1031;
+	}
+}
+
+@media (max-width:  767px) {
+	#logo_front{
+		position:relative;
+		top: -233px;
+		left:-80px;
+		transform: scale(0.08,0.08);
+		z-index: 1031;
+	}
+}
+
 #footy{
 	background-color: #F4F4F4;
+}
+
+.blank{
+	margin-top: 90px;
 }
 
 .separator-horizontal{
@@ -64,12 +88,15 @@ body{
 	color: rgb(99,99,99);
 }
 .navbar{
-	background-color: transparent;
+	height: 75px;
+	background-color: white;
 	border-color: transparent;
+		box-shadow: rgb(210, 210, 210) 1px 1px 8px 0px;
 }
 
 .navcontain {
-	padding-top: 23px;
+	padding-top: 12px;
+	padding-bottom: 12px;
 }
 
 .cta {
